@@ -2,7 +2,7 @@
 
 body{
      background-image: url("img/totrochuva.gif");
-     background-size:100%;
+     background-size:127%;
      background-repeat: no-repeat;
  }
 
@@ -23,7 +23,7 @@ body{
    --secundaria: #FF6347;
 }
 
-header{
+main{
     position: absolute;
     width: 1440px;
     height: 65px;
@@ -34,13 +34,13 @@ background: #000000;
 }
 
 
-nav ul li{
+ nav ul li a{
     position: absolute;
     width: 224px;
     height: 1024px;
     left: 0px;
     top: 0px;
-    background: #00000036;
+    background: #0000008a;
     border-radius: 27px;
 }
 
@@ -48,7 +48,7 @@ nav ul li a{
     text-decoration:none;
     position: absolute;
     color:var(--texto);
-   /* border-bottom: 2px solid #FFF;*/
+   
     
 
 }
