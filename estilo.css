@@ -3,7 +3,7 @@
    body{
     /*imagem pirncipal*/
     background-image:url("img/one.jpg");
-    background-size: 127%;
+    background-size: cover;
     background-repeat: no-repeat;
    }
 
@@ -56,30 +56,32 @@ header nav ul{
     color:--;
 
 }
-
-h2{
-    color: var(--texto);
+header nav ul li:hover{
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-color: var(--pincipal);
-    position: absolute;
-    width: 100%;
-    height: 40px;
-    left: 1192px;
-    top: -2px;
+
 }
 
+#li-bem{
+    
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: var(--pincipal);
+ 
+} 
+
 #li-up{
-    position: absolute;
+   
     width: 100%;
     height: 30px;
     left: 1050px;
     top: -3px;
 }
-
+a
 
 #li-cat{
-    position: absolute;
+   
     width: 100%;
     height: 29px;
     left: 862px;
@@ -87,7 +89,7 @@ h2{
 }
 
 #li-home{
-    position: absolute;
+    
     width: 100%;
     height: 30px;
     left: 594px;
@@ -95,17 +97,19 @@ h2{
 }
 
 #li-cads{
-    position: absolute;
+ 
     height: 60px;
     left: 650px;
     top: 500px;
 }
 #li-cads{
+    position: absolute;
     border: none;
     padding:20px;
     font-weight:bold;
     text-transform: uppercase;
     color: var(--texto);
+    text-decoration: none;
 }
 #li-cads{
     outline: none;
@@ -138,7 +142,7 @@ h1{
     color: var(--texto);
     font-weight:bold;
     font-size:86px;
-    position:absolute;
+   
     height:123px;
     left:40px;
     top:224px;
@@ -147,36 +151,24 @@ p{
     color: var(--pincipal);
     font-size: 20px;
     line-height: 1.5rem;
-    position: absolute;
+   
     width: 100%;
     height: 157px;
     left: 82px;
     top: 321px;
 }
-/*roda pé*/
-#fo-tt{
-   
-position: absolute;
-width: 64px;
-height: 65px;
-left: 8px;
-top: 747px;
-   
-}
 
-#fo-insta{
-    position: absolute;
-    width: 64px;
-    height: 56px;
-    left: 72px;
-    top: 752px;
-}
 
-#fo-disc{
-    position: absolute;
-    width: 54px;
-    height: 60px;
-    left: 153px;
-    top: 752px;
+footer{
+    background: none;
+    height: 3rem;
+    position: fixed;
+    bottom: 0%;
+    width: 100;
+
+}
+footer img{
+    height: 100%;
+    padding: 0.4rem;
 
 }

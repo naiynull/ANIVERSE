@@ -47,9 +47,7 @@ background: #000000;
 nav ul li a{
     text-decoration:none;
     position: absolute;
-    color:var(--texto);
-   
-    
+    color:var(--texto);    
 
 }
  
