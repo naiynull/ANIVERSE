@@ -63,6 +63,18 @@ header nav ul li:hover{
 
 }
 
+nav ul li ul {
+    display: none;
+  }
+  nav ul li:hover ul {
+    display: block;
+    margin: 15px 0 0 -15px;
+  }
+  nav ul li ul li {
+    display: block;
+  }
+
+  
 #li-bem{
     
     text-decoration-line: underline;
