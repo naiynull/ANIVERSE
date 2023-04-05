@@ -1,44 +1,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
 
-body{
- /*imagem pirncipal*/
- background-image:url("img/ghibli.jpg");
- background-size: cover;
- background-repeat: no-repeat;
+body {
+    /*imagem pirncipal*/
+    background-image: url("img/902.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 * {
- box-sizing: border-box;
- margin: 0;
- padding: 0;
- outline: 0;
- box-sizing: border-box;
- font-family:'Bitter', serif;
- font-weight: 400;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
 }
 
-:root{
- /*core3s do site*/
---pincipal: #D99797;
---texto: #FFF;
---secundaria: #FF6347; 
+:root {
+    /*core3s do site*/
+    --pincipal: #D99797;
+    --texto: #FFF;
+    --secundaria: #FF6347;
 
 }
-picture{
-    list-style-type:none;
+
+picture {
+    list-style-type: none;
     display: flex;
-    align-items:center;
+    align-items: center;
     width: 100%;
-    justify-content:right;
+    justify-content: right;
     height: 100%;
-   
+
 }
-h3{
-    color: #000;;
+
+h3 {
+    color: #000;
+    ;
     font-weight: bold;
     text-align: right;
-    line-height: 2rem; 
-}   
+    line-height: 2rem;
+}
+
+section img {
+
+    margin: 17px;
+    float: left;
+    width: 500px;
+    margin-left: 100px;
+}
+
+main p {
+    color: #FFF;
+    font-weight: bold;
+    line-height: 1.5rem;
+    height: 3rem;
+    width: 100;
 
 
+}
+.ponyo{
+
+
+width: 312px;
+line-height: 112px;
+margin-left: 200px;
+margin-top:80px;
+
+}
