@@ -2,7 +2,8 @@
 
 body {
     /*imagem pirncipal*/
-    background-image: url("img/902.jpg");
+    background-image: url("/img/pagina02.jpg");
+    background-color:var(--tela);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -20,8 +21,9 @@ body {
 
 :root {
     /*core3s do site*/
+    --tela: #52b6f8;
     --pincipal: #D99797;
-    --texto: #FFF;
+    --texto: #000000;
     --secundaria: #FF6347;
 
 }
@@ -37,36 +39,29 @@ picture {
 }
 
 h3 {
-    color: #000;
-    ;
+    color:var(--texto);
     font-weight: bold;
     text-align: right;
     line-height: 2rem;
 }
 
-section img {
-
-    margin: 17px;
-    float: left;
-    width: 500px;
-    margin-left: 100px;
+main.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5rem;
+    justify-content: center;
 }
 
-main p {
-    color: #FFF;
-    font-weight: bold;
-    line-height: 1.5rem;
+footer {
+    background-color: none;
     height: 3rem;
-    width: 100;
-
+    position: fixed;
+    bottom: 0%;
 
 }
-.ponyo{
 
-
-width: 312px;
-line-height: 112px;
-margin-left: 200px;
-margin-top:80px;
+footer img {
+    height: 100%;
+    padding: 0.4rem;
 
 }

@@ -2,7 +2,7 @@
 
    body {
        /*imagem pirncipal*/
-       background-image: url("img/raio.jpg");
+       background-image: url("/img/raio.jpg");
        background-size: cover;
        background-repeat: no-repeat;
    }
@@ -82,10 +82,11 @@
 
    main li {
 
-       height: 10rem;
+       height: 35rem;
        display: flex;
        align-items: center;
        justify-content: center;
+       
    }
 
 
@@ -171,3 +172,4 @@
    nav ul li {
        text-align: center;
    }
+   
