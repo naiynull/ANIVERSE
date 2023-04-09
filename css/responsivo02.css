@@ -1,5 +1,5 @@
 @media(max-width: 1010px){
-    main img{
+    main.grid{
         grid-template-columns: auto auto auto;
     }
 }
@@ -8,11 +8,26 @@
     header{
         height: 4.5rem;
     }
+    main #to{
+        width: 200px;
+    }
     main img{
+        width: 150px;
+    }
+    main.grid{
         grid-template-columns:auto auto ;
+        justify-content:start ;
+    }
+    picture img{
+        width: 400px;
+        align-items: end;
+        margin-top: 900px;
+    
     }
      h3{
-    font-size: 0.9rem;
+        align-items: end;
+        margin-top: 500px;
+  
 }
 }
 footer{
@@ -21,7 +36,28 @@ footer{
 
 
 @media(max-width: 500px){
-    main img{
+    main.grid{
         grid-template-columns: auto;
+        align-items: center;
+        margin-left: 50px ;
+        margin-top: 300px;
     }
+}
+main img{
+    width: 300px;
+}
+main #to{
+    width: 320px;
+}
+
+picture img{
+    width: 300px; ;
+    margin-top: 0;
+
+}
+h3{
+    text-align: start;
+    margin-top: 25px;
+    font-size: 1rem;
+
 }

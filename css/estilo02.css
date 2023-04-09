@@ -3,7 +3,7 @@
 body {
     /*imagem pirncipal*/
     background-image: url("/img/pagina02.jpg");
-    background-color:var(--tela);
+    background-color: rgb(174, 255, 231);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -21,7 +21,6 @@ body {
 
 :root {
     /*core3s do site*/
-    --tela: #52b6f8;
     --pincipal: #D99797;
     --texto: #000000;
     --secundaria: #FF6347;
@@ -40,9 +39,15 @@ picture {
 
 h3 {
     color:var(--texto);
-    font-weight: bold;
     text-align: right;
-    line-height: 2rem;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+main img{
+    width: 200px;
+}
+#to{
+    width: 250px;
 }
 
 main.grid{
