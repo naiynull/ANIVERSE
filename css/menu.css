@@ -10,7 +10,7 @@
 
      }
 
-     .menu .menu-faketrigger {
+     .menu .menufaketrigger {
          position: absolute;
          z-index: 1000;
          width: 35px;
@@ -36,20 +36,20 @@
          transition: all ease .2s;
      }
 
-     .manu .menu-faketrigger:checked~.manu-lines span {
+     .manu .menufaketrigger:checked~.menu-lines span {
          background-color: var(--texto);
      }
 
-     .menu .menu-faketrigger:checked~.manu-lines span:nth-child(1) {
+     .menu .menufaketrigger:checked~.menu-lines span:nth-child(1) {
          transform-origin: 0% 0%;
          transform: rotate(45deg) scaleX(1.25);
      }
 
-     .menu .menu-faketrigger:checked~.manu-lines span:nth-child(2) {
+     .menu .menufaketrigger:checked~.menu-lines span:nth-child(2) {
          opacity: 0;
      }
 
-     .menu .menu-faketrigger:checked~.manu-lines span:nth-child(3) {
+     .menu .menufaketrigger:checked~.menu-lines span:nth-child(3) {
          transform-origin: 0% 100%;
          transform: rotate(-45deg) scaleX(1.25);
      }
@@ -57,32 +57,33 @@
      .menu ul {
          position: absolute;
          z-index: 998;
-         left: 500px;
+         left: 0;
          top: 0;
          width: 300px;
          height: calc(100vh- 100px);
          padding-top: 100px;
-         background-color: var(var(--secundaria));
+         background-color:var(--pincipal);
          margin-left: -300px;
          transition: all ease .2s;
      }
 
-     .menu .menu-faketrigger:checked~ul {
+     .menu .menufaketrigger:checked~ul {
          margin-left: 0;
      }
 
-     .menu ul li {
-         padding: 10px 30px;
+     header nav ul {
+        display: inline;
+
      }
 
-     .manu ul li a {
+     .menu ul li a{
          text-decoration: none;
          color: var(--texto);
          font-size: 22px;
          transition: all ease .3s;
      }
 
-     .manu ul li a:hover {
-         background-color: var(--pincipal);
+     .menu ul li:hover {
+         background-color: var(--secundaria);
      }
     }
