@@ -1,57 +1,98 @@
-@media(max-width: 768px){
-    h1{
+@media(max-width: 1060px) {
+    h1 {
         font-size: 35px;
         width: 600px;
         height: 50px;
         margin-left: 15px;
-    
+
 
     }
-    main p{
+
+    main p {
         font-size: 12px;
         line-height: 1rem;
         align-items: start;
-         margin-left: 5px;
-         width: 400px;
-        
+        margin-left: 5px;
+        width: 400px;
+
     }
-    header nav ul li{
+
+    header nav ul li {
         font-size: 17px;
         margin-top: 0;
     }
-    #li-cads{
+
+    #li-cads {
         font-size: 17px;
         text-align: center;
-        margin-left: 100px;
-        margin-top: -300px;
-        width: 200px;
+        margin-left: 180px;
+        margin-top: -500px;
+        width: 250px;
     }
 }
-@media(max-width: 500px){
-    h1{
-        margin-left: 290px;
+
+
+@media(max-width: 800px) {
+    h1 {
+        font-size: 35px;
+        width: 600px;
+        height: 50px;
+        margin-left: 15px;
+
+
+    }
+
+    main p {
+        font-size: 12px;
+        line-height: 1rem;
+        align-items: start;
+        margin-left: 5px;
+        width: 400px;
+
+    }
+
+    header nav ul li {
+        font-size: 17px;
+        margin-top: 0;
+    }
+
+    #li-cads {
+        font-size: 17px;
+        text-align: center;
+        margin-left: 180px;
+        margin-top: -300px;
+        width: 250px;
+    }
+}
+
+@media(max-width: 500px) {
+    h1 {
+        margin-left: 350px;
         font-size: 50px;
         width: 300px;
         height: 50px;
-    
+
 
     }
-    main p{
+
+    main p {
         margin-top: 10px;
         font-size: 15px;
         line-height: 1rem;
         text-align: end;
         margin-left: 150px;
-    
+
     }
-    header nav ul li{
+
+    header nav ul li {
         font-size: 17px;
         margin-top: 0;
     }
-    #li-cads{
+
+    #li-cads {
         font-size: 17px;
         text-align: center;
-        justify-content:center ;
+        justify-content: center;
         margin-top: -200px;
         width: 200px;
     }

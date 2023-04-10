@@ -1,69 +1,83 @@
-@media(max-width: 1010px){
-    main.grid{
+@media(max-width: 1010px) {
+    main.grid {
         grid-template-columns: auto auto auto;
     }
 }
 
-@media(max-width: 768px){
-    header{
+@media(max-width: 768px) {
+    header {
         height: 4.5rem;
     }
-    main #to{
+
+    main #to {
         width: 200px;
     }
-    main img{
+
+    main img {
         width: 150px;
     }
-    main.grid{
-        grid-template-columns:auto auto;
-        justify-content:start;
-        
+
+    main.grid {
+        grid-template-columns: auto auto;
+        justify-content: start;
+
     }
-    picture img{
+
+    picture img {
         width: 400px;
         align-items: end;
         margin-top: 900px;
-    
+
     }
-      h3{
+
+    h3 {
         display: flex;
         align-items: end;
-        margin-left: 225px;
+        margin-left: 400px;
         margin-top: 500px;
-  
+
+    }
+
+    footer {
+        height: 2, 5rem;
+    }
+
 }
 
-footer{
-    height: 2,5rem;
-}
-
-}
-@media(max-width: 500px){
-    main.grid{
+@media(max-width: 500px) {
+    main.grid {
         grid-template-columns: auto;
         align-items: center;
-        margin-left: 50px ;
+        margin-left: 50px;
         margin-top: 300px;
     }
 
-main img{
-    width: 300px;
-}
-main #to{
-    width: 320px;
-}
+    main img {
+        width: 300px;
+    }
 
-picture img{
-    width: 300px; 
-    margin-top: 0;
+    main #to {
+        width: 320px;
+    }
+
+    picture img {
+        width: 300px;
+        margin-top: 0;
+
+    }
+
+    h3 {
+        margin-left: 10px;
+        margin-top: 25px;
+        font-size: 1rem;
+        line-height: 1rem;
+        text-align: start;
+    }
+
+    footer {
+        height: 2, 5rem;
+        background-color: rgba(19, 16, 16, 0.473);
+        width: 100vh;
+    }
 
 }
- h3{
-   margin-left: 10px;
-    margin-top: 25px;
-    font-size: 1rem;
-    line-height: 1rem;
-    text-align: start;
- }
-}
-

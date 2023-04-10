@@ -2,94 +2,95 @@
 
 
 
-     :root {
-         /*core3s do site*/
-         --pincipal: #D99797;
-         --texto: #FFF;
-         --secundaria: #FF6347;
+      :root {
+          /*core3s do site*/
+          --pincipal: #D99797;
+          --texto: #FFF;
+          --secundaria: #FF6347;
 
-     }
+      }
 
-     .menu .menufaketrigger {
-         position: absolute;
-         z-index: 1000;
-         width: 35px;
-         opacity: 0;
-         cursor: pointer;
-     }
+      .menu .menufaketrigger {
+          position: absolute;
+          z-index: 1000;
+          width: 35px;
+          opacity: 0;
+          cursor: pointer;
+      }
 
 
-     .menu .menu-lines {
-         position: absolute;
-         top: 10px;
-         z-index: 999;
-         width: 35px;
-         height: 35px;
-     }
+      .menu .menu-lines {
+          position: absolute;
+          top: 10px;
+          z-index: 999;
+          width: 35px;
+          height: 35px;
+      }
 
-     .menu .menu-lines span {
-         display: block;
-         width: 35px;
-         height: 5px;
-         margin-bottom: 10px;
-         background-color: var(--secundaria) ;
-         border-radius: 3px;
-         transition: all ease .2s;
-     }
+      .menu .menu-lines span {
+          display: block;
+          width: 35px;
+          height: 5px;
+          margin-bottom: 10px;
+          background-color: var(--secundaria);
+          border-radius: 3px;
+          transition: all ease .2s;
+      }
 
-     .manu .menufaketrigger:checked~.menu-lines span {
-         background-color: var(--texto);
-     }
+      .manu .menufaketrigger:checked~.menu-lines span {
+          background-color: var(--texto);
+      }
 
-     .menu .menufaketrigger:checked~.menu-lines span:nth-child(1) {
-         transform-origin: 0% 0%;
-         transform: rotate(45deg) scaleX(1.25);
-     }
+      .menu .menufaketrigger:checked~.menu-lines span:nth-child(1) {
+          transform-origin: 0% 0%;
+          transform: rotate(45deg) scaleX(1.25);
+      }
 
-     .menu .menufaketrigger:checked~.menu-lines span:nth-child(2) {
-         opacity: 0;
-     }
+      .menu .menufaketrigger:checked~.menu-lines span:nth-child(2) {
+          opacity: 0;
+      }
 
-     .menu .menufaketrigger:checked~.menu-lines span:nth-child(3) {
-         transform-origin: 0% 100%;
-         transform: rotate(-45deg) scaleX(1.25);
-     }
+      .menu .menufaketrigger:checked~.menu-lines span:nth-child(3) {
+          transform-origin: 0% 100%;
+          transform: rotate(-45deg) scaleX(1.25);
+      }
 
-     .menu ul {
-         position: absolute;
-         z-index: 998;
-         left: 0;
-         top: 0;
-         width: 200px;
-         height: calc(100vh- 100px);
-         padding-top: 100px;
-         background-color:var(--pincipal);
-         margin-left: -300px;
-         transition: all ease .2s;
-     }
+      .menu ul {
+          position: absolute;
+          z-index: 998;
+          left: 0;
+          top: 0;
+          width: 200px;
+          height: calc(100vh- 100px);
+          padding-top: 100px;
+          background-color: var(--pincipal);
+          margin-left: -300px;
+          transition: all ease .2s;
+      }
 
-     .menu .menufaketrigger:checked~ul {
-         margin-left: 0;
-     }
+      .menu .menufaketrigger:checked~ul {
+          margin-left: 0;
+      }
 
-  
-     header nav ul {
-        display: inline;
 
-     }
+      header nav ul {
+          display: inline;
 
-     .menu ul li a{
-         text-decoration: none;
-         color: var(--texto);
-         font-size: 22px;
-         transition: all ease .3s;
-     }
+      }
 
-     .menu ul li:hover {
-         background-color: var(--secundaria);
-     }
-     .logo{
-        margin-left: 100px;
-        width: 150px;
-     }
-    }
+      .menu ul li a {
+          text-decoration: none;
+          color: var(--texto);
+          font-size: 22px;
+          transition: all ease .3s;
+      }
+
+      .menu ul li:hover {
+          background-color: var(--secundaria);
+      }
+
+      .logo {
+          margin-left: 100px;
+          width: 150px;
+      }
+  }

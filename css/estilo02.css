@@ -2,7 +2,7 @@
 
 body {
     /*imagem pirncipal*/
-    background-image: url("../img/pagina02.jpg");
+    background-image: url("../img/748309.png");
     background-color: rgb(174, 255, 231);
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,23 +38,27 @@ picture {
 }
 
 h3 {
-    color:var(--texto);
+    color: var(--texto);
     text-align: right;
     font-size: 15px;
     line-height: 1.5rem;
 }
-main img{
-    width: 200px;
-}
-#to{
-    width: 250px;
+
+main img {
+    width: 210px;
+
 }
 
-main.grid{
+#to {
+    width: 260px;
+}
+
+main.grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 5rem;
-    justify-content: center;
+    gap: 7rem;
+    margin-left: 200px;
+
 }
 
 footer {
