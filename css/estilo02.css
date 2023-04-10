@@ -2,7 +2,7 @@
 
 body {
     /*imagem pirncipal*/
-    background-image: url("/img/pagina02.jpg");
+    background-image: url("../img/pagina02.jpg");
     background-color: rgb(174, 255, 231);
     background-size: cover;
     background-repeat: no-repeat;
